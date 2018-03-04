@@ -11,16 +11,16 @@ setupenv=false
 # Systems to build
 linux=true
 windows=true
-osx=true
+osx=false
 
 # Other Basic variables
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/pivx-project/pivx
+url=https://github.com/ivyproject/ivy
 proc=2
-mem=2000
-lxc=true
+mem=3000
+lxc=false
 osslTarUrl=http://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz
 osslPatchUrl=https://bitcoincore.org/cfields/osslsigncode-Backports-to-1.7.1.patch
 scriptName=$(basename -- "$0")
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./pivx
+pushd ./ivy
 git fetch
 git checkout ${COMMIT}
 popd
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../pivx/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../ivy/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
