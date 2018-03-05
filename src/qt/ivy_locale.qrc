@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ivy_bg.qm</file>
+        <file alias="ca">locale/ivy_ca.qm</file>
+        <file alias="cs">locale/ivy_cs.qm</file>
+        <file alias="da">locale/ivy_da.qm</file>
+        <file alias="de">locale/ivy_de.qm</file>
+        <file alias="en">locale/ivy_en.qm</file>
+        <file alias="en_US">locale/ivy_en_US.qm</file>
+        <file alias="es">locale/ivy_es.qm</file>
+        <file alias="fi">locale/ivy_fi.qm</file>
+        <file alias="fr_FR">locale/ivy_fr_FR.qm</file>
+        <file alias="it">locale/ivy_it.qm</file>
+        <file alias="ja">locale/ivy_ja.qm</file>
+        <file alias="ko_KR">locale/ivy_ko_KR.qm</file>
+        <file alias="nl">locale/ivy_nl.qm</file>
+        <file alias="pl">locale/ivy_pl.qm</file>
+        <file alias="pt">locale/ivy_pt.qm</file>
+        <file alias="pt_BR">locale/ivy_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ivy_ro_RO.qm</file>
+        <file alias="ru">locale/ivy_ru.qm</file>
+        <file alias="sk">locale/ivy_sk.qm</file>
+        <file alias="sv">locale/ivy_sv.qm</file>
+        <file alias="uk">locale/ivy_uk.qm</file>
+        <file alias="zh_CN">locale/ivy_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ivy_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+[Unit]
+Description=IVY's distributed currency daemon
+After=network.target
+
+[Service]
+User=ivy
+Group=ivy
+
+Type=forking
+PIDFile=/var/lib/ivyd/ivyd.pid
+
+ExecStart=/usr/bin/ivyd -daemon -pid=/var/lib/ivyd/ivyd.pid \
+          -conf=/etc/ivy/ivy.conf -datadir=/var/lib/ivyd
+
+ExecStop=-/usr/bin/ivy-cli -conf=/etc/ivy/ivy.conf \
+         -datadir=/var/lib/ivyd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

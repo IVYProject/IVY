@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ivy
+Comment=Ivy P2P Cryptocurrency
+Comment[fr]=Ivy, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ivy, eşten eşe kriptografik sanal para birimi
+Exec=ivy-qt %u
+Terminal=false
+Type=Application
+Icon=ivy128
+MimeType=x-scheme-handler/ivy;
+Categories=Office;Finance;

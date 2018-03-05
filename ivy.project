@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="ivy" Version="10.0.0" InternalType="">
+  <VirtualDirectory Name="src">
+    <File Name="src/arith_uint256.cpp"/>
+    <File Name="src/hash.cpp"/>
+    <File Name="src/core_read.cpp"/>
+    <File Name="src/txdb.h"/>
+    <File Name="src/rpcmasternode.cpp"/>
+    <File Name="src/amount.cpp"/>
+    <File Name="src/allocators.h"/>
+    <File Name="src/chainparamsbase.h"/>
+    <File Name="src/ivy-tx.cpp"/>
+    <File Name="src/rpcdump.cpp"/>
+    <File Name="src/eccryptoverify.h"/>
+    <File Name="src/allocators.cpp"/>
+    <File Name="src/txmempool.cpp"/>
+    <File Name="src/addrman.cpp"/>
+    <File Name="src/masternode-payments.h"/>
+    <File Name="src/masternodeman.h"/>
+    <File Name="src/clientversion.cpp"/>
+    <File Name="src/ecwrapper.h"/>
+    <File Name="src/random.cpp"/>
+    <File Name="src/masternode-budget.cpp"/>
+    <File Name="src/protocol.cpp"/>
+    <File Name="src/bip38.cpp"/>
+    <File Name="src/streams.h"/>
+    <File Name="src/rpcserver.h"/>
+    <File Name="src/miner.h"/>
+    <File Name="src/db.cpp"/>
+    <File Name="src/limitedmap.h"/>
+    <File Name="src/serialize.h"/>
+    <File Name="src/crypter.cpp"/>
+    <File Name="src/swifttx.h"/>
+    <File Name="src/wallet.h"/>
+    <File Name="src/chainparamsseeds.h"/>
+    <File Name="src/pow.cpp"/>
+    <File Name="src/leveldbwrapper.h"/>
+    <File Name="src/noui.h"/>
+    <File Name="src/miner.cpp"/>
+    <File Name="src/ui_interface.h"/>
+    <File Name="src/masternodeconfig.h"/>
+    <File Name="src/compressor.cpp"/>
+    <File Name="src/chain.h"/>
+    <File Name="src/init.h"/>
+    <File Name="src/activemasternode.h"/>
+    <File Name="src/keystore.cpp"/>
+    <File Name="src/utilmoneystr.h"/>
+    <File Name="src/rpcprotocol.h"/>
+    <File Name="src/mruset.h"/>
+    <File Name="src/bloom.cpp"/>
+    <File Name="src/activemasternode.cpp"/>
+    <File Name="src/sync.h"/>
+    <File Name="src/masternode.cpp"/>
+    <File Name="src/timedata.cpp"/>
+    <File Name="src/kernel.h"/>
+    <File Name="src/key.h"/>
+    <File Name="src/spork.cpp"/>
+    <File Name="src/masternodeconfig.cpp"/>
+    <File Name="src/threadsafety.h"/>
+    <File Name="src/pubkey.cpp"/>
+    <File Name="src/obfuscation.h"/>
+    <File Name="src/coins.cpp"/>
+    <File Name="src/kernel.cpp"/>
+    <File Name="src/rpcmining.cpp"/>
+    <File Name="src/crypter.h"/>
+    <File Name="src/util.cpp"/>
+    <File Name="src/netbase.h"/>
+    <File Name="src/masternode-sync.cpp"/>
+    <File Name="src/checkpoints.cpp"/>
+    <File Name="src/rpcprotocol.cpp"/>
+    <File Name="src/validationinterface.h"/>
+    <File Name="src/rpcmisc.cpp"/>
+    <File Name="src/eccryptoverify.cpp"/>
+    <File Name="src/leveldbwrapper.cpp"/>
+    <File Name="src/coincontrol.h"/>
+    <File Name="src/ivy-cli.cpp"/>
+    <File Name="src/key.cpp"/>
+    <File Name="src/wallet_ismine.cpp"/>
+    <File Name="src/utiltime.cpp"/>
+    <File Name="src/pubkey.h"/>
+    <File Name="src/obfuscation-relay.h"/>
+    <File Name="src/wallet_ismine.h"/>
+    <File Name="src/rpcclient.cpp"/>
+    <File Name="src/checkqueue.h"/>
+    <File Name="src/keystore.h"/>
+    <File Name="src/txmempool.h"/>
+    <File Name="src/obfuscation.cpp"/>
+    <File Name="src/rpcrawtransaction.cpp"/>
+    <File Name="src/random.h"/>
+    <File Name="src/protocol.h"/>
+    <File Name="src/chainparams.h"/>
+    <File Name="src/net.cpp"/>
+    <File Name="src/util.h"/>
+    <File Name="src/net.h"/>
+    <File Name="src/core_write.cpp"/>
+    <File Name="src/arith_uint256.h"/>
+    <File Name="src/undo.h"/>
+    <File Name="src/bip38.h"/>
+    <File Name="src/version.h"/>
+    <File Name="src/checkpoints.h"/>
+    <File Name="src/bloom.h"/>
+    <File Name="src/masternodeman.cpp"/>
+    <File Name="src/addrman.h"/>
+    <File Name="src/rpcnet.cpp"/>
+    <File Name="src/chainparams.cpp"/>
+    <File Name="src/db.h"/>
+    <File Name="src/compat.h"/>
+    <File Name="src/merkleblock.h"/>
+    <File Name="src/uint256.cpp"/>
+    <File Name="src/amount.h"/>
+    <File Name="src/utilstrencodings.cpp"/>
+    <File Name="src/swifttx.cpp"/>
+    <File Name="src/rest.cpp"/>
+    <File Name="src/rpcwallet.cpp"/>
+    <File Name="src/chainparamsbase.cpp"/>
+    <File Name="src/masternode-sync.h"/>
+    <File Name="src/spork.h"/>
+    <File Name="src/uint512.h"/>
+    <File Name="src/utilstrencodings.h"/>
+    <File Name="src/rpcserver.cpp"/>
+    <File Name="src/timedata.h"/>
+    <File Name="src/masternode-budget.h"/>
+    <File Name="src/hash.h"/>
+    <File Name="src/wallet.cpp"/>
+    <File Name="src/compressor.h"/>
+    <File Name="src/clientversion.h"/>
+    <File Name="src/sync.cpp"/>
+    <File Name="src/base58.cpp"/>
+    <File Name="src/base58.h"/>
+    <File Name="src/pow.h"/>
+    <File Name="src/walletdb.cpp"/>
+    <File Name="src/alert.h"/>
+    <File Name="src/netbase.cpp"/>
+    <File Name="src/alert.cpp"/>
+    <File Name="src/noui.cpp"/>
+    <File Name="src/obfuscation-relay.cpp"/>
+    <File Name="src/rpcmasternode-budget.cpp"/>
+    <File Name="src/core_io.h"/>
+    <File Name="src/rpcclient.h"/>
+    <File Name="src/tinyformat.h"/>
+    <File Name="src/masternode.h"/>
+    <File Name="src/utiltime.h"/>
+    <File Name="src/validationinterface.cpp"/>
+    <File Name="src/init.cpp"/>
+    <File Name="src/ivyd.cpp"/>
+    <File Name="src/masternode-payments.cpp"/>
+    <File Name="src/utilmoneystr.cpp"/>
+    <File Name="src/chain.cpp"/>
+    <File Name="src/rpcblockchain.cpp"/>
+    <File Name="src/walletdb.h"/>
+    <File Name="src/txdb.cpp"/>
+    <File Name="src/main.h"/>
+    <File Name="src/coins.h"/>
+    <File Name="src/main.cpp"/>
+    <File Name="src/ecwrapper.cpp"/>
+    <File Name="src/uint256.h"/>
+    <File Name="src/merkleblock.cpp"/>
+    <VirtualDirectory Name="leveldb">
+      <VirtualDirectory Name="table">
+        <File Name="src/leveldb/table/filter_block.h"/>
+        <File Name="src/leveldb/table/two_level_iterator.cc"/>
+        <File Name="src/leveldb/table/table_test.cc"/>
+        <File Name="src/leveldb/table/table_builder.cc"/>
+        <File Name="src/leveldb/table/merger.h"/>
+        <File Name="src/leveldb/table/filter_block_test.cc"/>
+        <File Name="src/leveldb/table/format.h"/>
+        <File Name="src/leveldb/table/iterator.cc"/>
+        <File Name="src/leveldb/table/block.cc"/>
+        <File Name="src/leveldb/table/block_builder.h"/>
+        <File Name="src/leveldb/table/block_builder.cc"/>
+        <File Name="src/leveldb/table/two_level_iterator.h"/>
+        <File Name="src/leveldb/table/filter_block.cc"/>
+        <File Name="src/leveldb/table/iterator_wrapper.h"/>
+        <File Name="src/leveldb/table/format.cc"/>
+        <File Name="src/leveldb/table/block.h"/>
+        <File Name="src/leveldb/table/table.cc"/>
+        <File Name="src/leveldb/table/merger.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="db">
+        <File Name="src/leveldb/db/log_reader.h"/>
+        <File Name="src/leveldb/db/log_reader.cc"/>
+        <File Name="src/leveldb/db/filename.cc"/>
+        <File Name="src/leveldb/db/snapshot.h"/>
+        <File Name="src/leveldb/db/table_cache.cc"/>
+        <File Name="src/leveldb/db/filename_test.cc"/>
+        <File Name="src/leveldb/db/skiplist_test.cc"/>
+        <File Name="src/leveldb/db/builder.cc"/>
+        <File Name="src/leveldb/db/dbformat.cc"/>
+        <File Name="src/leveldb/db/log_test.cc"/>
+        <File Name="src/leveldb/db/skiplist.h"/>
+        <File Name="src/leveldb/db/version_edit_test.cc"/>
+        <File Name="src/leveldb/db/dbformat.h"/>
+        <File Name="src/leveldb/db/repair.cc"/>
+        <File Name="src/leveldb/db/db_impl.cc"/>
+        <File Name="src/leveldb/db/version_edit.h"/>
+        <File Name="src/leveldb/db/db_test.cc"/>
+        <File Name="src/leveldb/db/c.cc"/>
+        <File Name="src/leveldb/db/write_batch_test.cc"/>
+        <File Name="src/leveldb/db/version_set_test.cc"/>
+        <File Name="src/leveldb/db/dbformat_test.cc"/>
+        <File Name="src/leveldb/db/version_edit.cc"/>
+        <File Name="src/leveldb/db/memtable.cc"/>
+        <File Name="src/leveldb/db/log_writer.cc"/>
+        <File Name="src/leveldb/db/db_iter.h"/>
+        <File Name="src/leveldb/db/db_iter.cc"/>
+        <File Name="src/leveldb/db/filename.h"/>
+        <File Name="src/leveldb/db/autocompact_test.cc"/>
+        <File Name="src/leveldb/db/log_writer.h"/>
+        <File Name="src/leveldb/db/dumpfile.cc"/>
+        <File Name="src/leveldb/db/log_format.h"/>
+        <File Name="src/leveldb/db/builder.h"/>
+        <File Name="src/leveldb/db/corruption_test.cc"/>
+        <File Name="src/leveldb/db/db_bench.cc"/>
+        <File Name="src/leveldb/db/memtable.h"/>
+        <File Name="src/leveldb/db/db_impl.h"/>
+        <File Name="src/leveldb/db/write_batch.cc"/>
+        <File Name="src/leveldb/db/leveldb_main.cc"/>
+        <File Name="src/leveldb/db/c_test.c"/>
+        <File Name="src/leveldb/db/version_set.cc"/>
+        <File Name="src/leveldb/db/table_cache.h"/>
+        <File Name="src/leveldb/db/write_batch_internal.h"/>
+        <File Name="src/leveldb/db/version_set.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="helpers">
+        <VirtualDirectory Name="memenv">
+          <File Name="src/leveldb/helpers/memenv/memenv.h"/>
+          <File Name="src/leveldb/helpers/memenv/memenv.cc"/>
+          <File Name="src/leveldb/helpers/memenv/memenv_test.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="port">
+        <File Name="src/leveldb/port/port_posix.cc"/>
+        <File Name="src/leveldb/port/port_posix.h"/>
+        <File Name="src/leveldb/port/port_win.cc"/>
+        <File Name="src/leveldb/port/port_win.h"/>
+        <File Name="src/leveldb/port/port.h"/>
+        <File Name="src/leveldb/port/thread_annotations.h"/>
+        <File Name="src/leveldb/port/port_example.h"/>
+        <File Name="src/leveldb/port/atomic_pointer.h"/>
+        <VirtualDirectory Name="win">
+          <File Name="src/leveldb/port/win/stdint.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="doc">
+        <VirtualDirectory Name="bench">
+          <File Name="src/leveldb/doc/bench/db_bench_sqlite3.cc"/>
+          <File Name="src/leveldb/doc/bench/db_bench_tree_db.cc"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="include">
+        <VirtualDirectory Name="leveldb">
+          <File Name="src/leveldb/include/leveldb/table.h"/>
+          <File Name="src/leveldb/include/leveldb/write_batch.h"/>
+          <File Name="src/leveldb/include/leveldb/slice.h"/>
+          <File Name="src/leveldb/include/leveldb/options.h"/>
+          <File Name="src/leveldb/include/leveldb/dumpfile.h"/>
+          <File Name="src/leveldb/include/leveldb/env.h"/>
+          <File Name="src/leveldb/include/leveldb/c.h"/>
+          <File Name="src/leveldb/include/leveldb/cache.h"/>
+          <File Name="src/leveldb/include/leveldb/filter_policy.h"/>
+          <File Name="src/leveldb/include/leveldb/status.h"/>
+          <File Name="src/leveldb/include/leveldb/iterator.h"/>
+          <File Name="src/leveldb/include/leveldb/db.h"/>
+          <File Name="src/leveldb/include/leveldb/table_builder.h"/>
+          <File Name="src/leveldb/include/leveldb/comparator.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="util">
+        <File Name="src/leveldb/util/bloom.cc"/>
+        <File Name="src/leveldb/util/hash.cc"/>
+        <File Name="src/leveldb/util/testharness.cc"/>
+        <File Name="src/leveldb/util/status.cc"/>
+        <File Name="src/leveldb/util/testutil.h"/>
+        <File Name="src/leveldb/util/coding_test.cc"/>
+        <File Name="src/leveldb/util/bloom_test.cc"/>
+        <File Name="src/leveldb/util/filter_policy.cc"/>
+        <File Name="src/leveldb/util/cache.cc"/>
+        <File Name="src/leveldb/util/hash_test.cc"/>
+        <File Name="src/leveldb/util/comparator.cc"/>
+        <File Name="src/leveldb/util/options.cc"/>
+        <File Name="src/leveldb/util/logging.h"/>
+        <File Name="src/leveldb/util/env_test.cc"/>
+        <File Name="src/leveldb/util/histogram.cc"/>
+        <File Name="src/leveldb/util/histogram.h"/>
+        <File Name="src/leveldb/util/random.h"/>
+        <File Name="src/leveldb/util/arena_test.cc"/>
+        <File Name="src/leveldb/util/arena.cc"/>
+        <File Name="src/leveldb/util/testharness.h"/>
+        <File Name="src/leveldb/util/env_posix.cc"/>
+        <File Name="src/leveldb/util/logging.cc"/>
+        <File Name="src/leveldb/util/arena.h"/>
+        <File Name="src/leveldb/util/env_win.cc"/>
+        <File Name="src/leveldb/util/coding.cc"/>
+        <File Name="src/leveldb/util/crc32c.h"/>
+        <File Name="src/leveldb/util/hash.h"/>
+        <File Name="src/leveldb/util/crc32c.cc"/>
+        <File Name="src/leveldb/util/posix_logger.h"/>
+        <File Name="src/leveldb/util/crc32c_test.cc"/>
+        <File Name="src/leveldb/util/testutil.cc"/>
+        <File Name="src/leveldb/util/coding.h"/>
+        <File Name="src/leveldb/util/mutexlock.h"/>
+        <File Name="src/leveldb/util/cache_test.cc"/>
+        <File Name="src/leveldb/util/env.cc"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="issues">
+        <File Name="src/leveldb/issues/issue200_test.cc"/>
+        <File Name="src/leveldb/issues/issue178_test.cc"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="primitives">
+      <File Name="src/primitives/transaction.h"/>
+      <File Name="src/primitives/block.cpp"/>
+      <File Name="src/primitives/transaction.cpp"/>
+      <File Name="src/primitives/block.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="script">
+      <File Name="src/script/sigcache.h"/>
+      <File Name="src/script/script.h"/>
+      <File Name="src/script/sign.cpp"/>
+      <File Name="src/script/script_error.cpp"/>
+      <File Name="src/script/bitcoinconsensus.h"/>
+      <File Name="src/script/sign.h"/>
+      <File Name="src/script/script_error.h"/>
+      <File Name="src/script/script.cpp"/>
+      <File Name="src/script/sigcache.cpp"/>
+      <File Name="src/script/interpreter.h"/>
+      <File Name="src/script/interpreter.cpp"/>
+      <File Name="src/script/standard.h"/>
+      <File Name="src/script/standard.cpp"/>
+      <File Name="src/script/bitcoinconsensus.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="compat">
+      <File Name="src/compat/glibc_compat.cpp"/>
+      <File Name="src/compat/glibc_sanity.cpp"/>
+      <File Name="src/compat/glibcxx_sanity.cpp"/>
+      <File Name="src/compat/strnlen.cpp"/>
+      <File Name="src/compat/glibcxx_compat.cpp"/>
+      <File Name="src/compat/sanity.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="crypto">
+      <File Name="src/crypto/luffa.c"/>
+      <File Name="src/crypto/echo.c"/>
+      <File Name="src/crypto/rfc6979_hmac_sha256.cpp"/>
+      <File Name="src/crypto/sph_blake.h"/>
+      <File Name="src/crypto/ripemd160.cpp"/>
+      <File Name="src/crypto/sha1.cpp"/>
+      <File Name="src/crypto/sha1.h"/>
+      <File Name="src/crypto/hmac_sha512.cpp"/>
+      <File Name="src/crypto/ripemd160.h"/>
+      <File Name="src/crypto/skein.c"/>
+      <File Name="src/crypto/sph_shavite.h"/>
+      <File Name="src/crypto/keccak.c"/>
+      <File Name="src/crypto/sph_groestl.h"/>
+      <File Name="src/crypto/jh.c"/>
+      <File Name="src/crypto/hmac_sha256.h"/>
+      <File Name="src/crypto/shavite.c"/>
+      <File Name="src/crypto/sha512.h"/>
+      <File Name="src/crypto/sha512.cpp"/>
+      <File Name="src/crypto/aes_helper.c"/>
+      <File Name="src/crypto/blake.c"/>
+      <File Name="src/crypto/sph_simd.h"/>
+      <File Name="src/crypto/sph_luffa.h"/>
+      <File Name="src/crypto/sph_types.h"/>
+      <File Name="src/crypto/scrypt.h"/>
+      <File Name="src/crypto/bmw.c"/>
+      <File Name="src/crypto/sph_skein.h"/>
+      <File Name="src/crypto/sph_cubehash.h"/>
+      <File Name="src/crypto/hmac_sha512.h"/>
+      <File Name="src/crypto/cubehash.c"/>
+      <File Name="src/crypto/sph_jh.h"/>
+      <File Name="src/crypto/common.h"/>
+      <File Name="src/crypto/sha256.cpp"/>
+      <File Name="src/crypto/sph_keccak.h"/>
+      <File Name="src/crypto/simd.c"/>
+      <File Name="src/crypto/sha256.h"/>
+      <File Name="src/crypto/rfc6979_hmac_sha256.h"/>
+      <File Name="src/crypto/groestl.c"/>
+      <File Name="src/crypto/hmac_sha256.cpp"/>
+      <File Name="src/crypto/sph_echo.h"/>
+      <File Name="src/crypto/scrypt.cpp"/>
+      <File Name="src/crypto/sph_bmw.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="univalue">
+      <File Name="src/univalue/univalue_read.cpp"/>
+      <File Name="src/univalue/univalue_write.cpp"/>
+      <File Name="src/univalue/univalue.h"/>
+      <File Name="src/univalue/gen.cpp"/>
+      <File Name="src/univalue/univalue.cpp"/>
+      <File Name="src/univalue/univalue_escapes.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="qt">
+      <File Name="src/qt/sendcoinsdialog.cpp"/>
+      <File Name="src/qt/networkstyle.h"/>
+      <File Name="src/qt/paymentserver.h"/>
+      <File Name="src/qt/trafficgraphwidget.cpp"/>
+      <File Name="src/qt/transactionrecord.h"/>
+      <File Name="src/qt/openuridialog.h"/>
+      <File Name="src/qt/guiconstants.h"/>
+      <File Name="src/qt/addresstablemodel.cpp"/>
+      <File Name="src/qt/optionsdialog.cpp"/>
+      <File Name="src/qt/rpcconsole.h"/>
+      <File Name="src/qt/macnotificationhandler.h"/>
+      <File Name="src/qt/askpassphrasedialog.cpp"/>
+      <File Name="src/qt/networkstyle.cpp"/>
+      <File Name="src/qt/paymentrequestplus.h"/>
+      <File Name="src/qt/recentrequeststablemodel.cpp"/>
+      <File Name="src/qt/optionsmodel.cpp"/>
+      <File Name="src/qt/intro.cpp"/>
+      <File Name="src/qt/bitcoinamountfield.h"/>
+      <File Name="src/qt/transactionfilterproxy.cpp"/>
+      <File Name="src/qt/platformstyle.cpp"/>
+      <File Name="src/qt/bip38tooldialog.h"/>
+      <File Name="src/qt/paymentrequestplus.cpp"/>
+      <File Name="src/qt/walletframe.h"/>
+      <File Name="src/qt/ivy.cpp"/>
+      <File Name="src/qt/intro.h"/>
+      <File Name="src/qt/optionsdialog.h"/>
+      <File Name="src/qt/splashscreen.cpp"/>
+      <File Name="src/qt/utilitydialog.cpp"/>
+      <File Name="src/qt/notificator.h"/>
+      <File Name="src/qt/transactiondescdialog.h"/>
+      <File Name="src/qt/bitcoingui.cpp"/>
+      <File Name="src/qt/csvmodelwriter.h"/>
+      <File Name="src/qt/platformstyle.h"/>
+      <File Name="src/qt/bitcoinunits.cpp"/>
+      <File Name="src/qt/guiutil.h"/>
+      <File Name="src/qt/clientmodel.cpp"/>
+      <File Name="src/qt/qvaluecombobox.h"/>
+      <File Name="src/qt/qvaluecombobox.cpp"/>
+      <File Name="src/qt/utilitydialog.h"/>
+      <File Name="src/qt/qvalidatedlineedit.cpp"/>
+      <File Name="src/qt/bitcoinunits.h"/>
+      <File Name="src/qt/walletview.cpp"/>
+      <File Name="src/qt/blockexplorer.h"/>
+      <File Name="src/qt/signverifymessagedialog.cpp"/>
+      <File Name="src/qt/guiutil.cpp"/>
+      <File Name="src/qt/csvmodelwriter.cpp"/>
+      <File Name="src/qt/askpassphrasedialog.h"/>
+      <File Name="src/qt/bitcoinaddressvalidator.cpp"/>
+      <File Name="src/qt/receivecoinsdialog.h"/>
+      <File Name="src/qt/bitcoingui.h"/>
+      <File Name="src/qt/walletmodeltransaction.h"/>
+      <File Name="src/qt/obfuscationconfig.cpp"/>
+      <File Name="src/qt/masternodelist.cpp"/>
+      <File Name="src/qt/winshutdownmonitor.cpp"/>
+      <File Name="src/qt/winshutdownmonitor.h"/>
+      <File Name="src/qt/recentrequeststablemodel.h"/>
+      <File Name="src/qt/addressbookpage.cpp"/>
+      <File Name="src/qt/blockexplorer.cpp"/>
+      <File Name="src/qt/receiverequestdialog.cpp"/>
+      <File Name="src/qt/addresstablemodel.h"/>
+      <File Name="src/qt/multisenddialog.h"/>
+      <File Name="src/qt/editaddressdialog.cpp"/>
+      <File Name="src/qt/coincontroldialog.cpp"/>
+      <File Name="src/qt/transactionview.h"/>
+      <File Name="src/qt/transactiondescdialog.cpp"/>
+      <File Name="src/qt/masternodelist.h"/>
+      <File Name="src/qt/rpcconsole.cpp"/>
+      <File Name="src/qt/bip38tooldialog.cpp"/>
+      <File Name="src/qt/addressbookpage.h"/>
+      <File Name="src/qt/coincontroldialog.h"/>
+      <File Name="src/qt/editaddressdialog.h"/>
+      <File Name="src/qt/paymentserver.cpp"/>
+      <File Name="src/qt/openuridialog.cpp"/>
+      <File Name="src/qt/signverifymessagedialog.h"/>
+      <File Name="src/qt/macdockiconhandler.h"/>
+      <File Name="src/qt/clientmodel.h"/>
+      <File Name="src/qt/coincontroltreewidget.h"/>
+      <File Name="src/qt/multisenddialog.cpp"/>
+      <File Name="src/qt/walletmodel.h"/>
+      <File Name="src/qt/walletframe.cpp"/>
+      <File Name="src/qt/optionsmodel.h"/>
+      <File Name="src/qt/receivecoinsdialog.cpp"/>
+      <File Name="src/qt/ivystrings.cpp"/>
+      <File Name="src/qt/receiverequestdialog.h"/>
+      <File Name="src/qt/peertablemodel.cpp"/>
+      <File Name="src/qt/transactionview.cpp"/>
+      <File Name="src/qt/sendcoinsentry.h"/>
+      <File Name="src/qt/bitcoinamountfield.cpp"/>
+      <File Name="src/qt/transactiondesc.h"/>
+      <File Name="src/qt/coincontroltreewidget.cpp"/>
+      <File Name="src/qt/obfuscationconfig.h"/>
+      <File Name="src/qt/bitcoinaddressvalidator.h"/>
+      <File Name="src/qt/sendcoinsdialog.h"/>
+      <File Name="src/qt/splashscreen.h"/>
+      <File Name="src/qt/walletview.h"/>
+      <File Name="src/qt/sendcoinsentry.cpp"/>
+      <File Name="src/qt/walletmodel.cpp"/>
+      <File Name="src/qt/overviewpage.cpp"/>
+      <File Name="src/qt/peertablemodel.h"/>
+      <File Name="src/qt/qvalidatedlineedit.h"/>
+      <File Name="src/qt/notificator.cpp"/>
+      <File Name="src/qt/walletmodeltransaction.cpp"/>
+      <File Name="src/qt/transactiontablemodel.h"/>
+      <File Name="src/qt/transactiontablemodel.cpp"/>
+      <File Name="src/qt/overviewpage.h"/>
+      <File Name="src/qt/trafficgraphwidget.h"/>
+      <File Name="src/qt/transactionrecord.cpp"/>
+      <File Name="src/qt/transactiondesc.cpp"/>
+      <File Name="src/qt/transactionfilterproxy.h"/>
+      <VirtualDirectory Name="test">
+        <File Name="src/qt/test/paymentrequestdata.h"/>
+        <File Name="src/qt/test/paymentservertests.h"/>
+        <File Name="src/qt/test/test_main.cpp"/>
+        <File Name="src/qt/test/uritests.cpp"/>
+        <File Name="src/qt/test/paymentservertests.cpp"/>
+        <File Name="src/qt/test/uritests.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="json">
+      <File Name="src/json/json_spirit_value.cpp"/>
+      <File Name="src/json/json_spirit_writer_template.h"/>
+      <File Name="src/json/json_spirit_reader_template.h"/>
+      <File Name="src/json/json_spirit_writer.cpp"/>
+      <File Name="src/json/json_spirit_stream_reader.h"/>
+      <File Name="src/json/json_spirit_utils.h"/>
+      <File Name="src/json/json_spirit_writer.h"/>
+      <File Name="src/json/json_spirit_value.h"/>
+      <File Name="src/json/json_spirit_reader.cpp"/>
+      <File Name="src/json/json_spirit_reader.h"/>
+      <File Name="src/json/json_spirit.h"/>
+      <File Name="src/json/json_spirit_error_position.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="secp256k1">
+      <VirtualDirectory Name="src">
+        <File Name="src/secp256k1/src/scalar_8x32_impl.h"/>
+        <File Name="src/secp256k1/src/scalar_impl.h"/>
+        <File Name="src/secp256k1/src/num_impl.h"/>
+        <File Name="src/secp256k1/src/ecmult_gen.h"/>
+        <File Name="src/secp256k1/src/num_gmp_impl.h"/>
+        <File Name="src/secp256k1/src/tests.c"/>
+        <File Name="src/secp256k1/src/field_gmp.h"/>
+        <File Name="src/secp256k1/src/eckey.h"/>
+        <File Name="src/secp256k1/src/field_impl.h"/>
+        <File Name="src/secp256k1/src/scalar_4x64.h"/>
+        <File Name="src/secp256k1/src/num_gmp.h"/>
+        <File Name="src/secp256k1/src/ecdsa_impl.h"/>
+        <File Name="src/secp256k1/src/testrand.h"/>
+        <File Name="src/secp256k1/src/field_5x52.h"/>
+        <File Name="src/secp256k1/src/field_5x52_asm_impl.h"/>
+        <File Name="src/secp256k1/src/ecmult.h"/>
+        <File Name="src/secp256k1/src/scalar.h"/>
+        <File Name="src/secp256k1/src/field_5x52_int128_impl.h"/>
+        <File Name="src/secp256k1/src/bench_sign.c"/>
+        <File Name="src/secp256k1/src/testrand_impl.h"/>
+        <File Name="src/secp256k1/src/num.h"/>
+        <File Name="src/secp256k1/src/scalar_8x32.h"/>
+        <File Name="src/secp256k1/src/group.h"/>
+        <File Name="src/secp256k1/src/util.h"/>
+        <File Name="src/secp256k1/src/field_10x26.h"/>
+        <File Name="src/secp256k1/src/field_5x52_impl.h"/>
+        <File Name="src/secp256k1/src/field_10x26_impl.h"/>
+        <File Name="src/secp256k1/src/scalar_4x64_impl.h"/>
+        <File Name="src/secp256k1/src/ecdsa.h"/>
+        <File Name="src/secp256k1/src/bench_inv.c"/>
+        <File Name="src/secp256k1/src/ecmult_impl.h"/>
+        <File Name="src/secp256k1/src/ecmult_gen_impl.h"/>
+        <File Name="src/secp256k1/src/field_gmp_impl.h"/>
+        <File Name="src/secp256k1/src/group_impl.h"/>
+        <File Name="src/secp256k1/src/bench_verify.c"/>
+        <File Name="src/secp256k1/src/eckey_impl.h"/>
+        <File Name="src/secp256k1/src/secp256k1.c"/>
+        <File Name="src/secp256k1/src/field.h"/>
+        <VirtualDirectory Name="java">
+          <File Name="src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c"/>
+          <File Name="src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+      <VirtualDirectory Name="include">
+        <File Name="src/secp256k1/include/secp256k1.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="zmq">
+      <File Name="src/zmq/zmqpublishnotifier.h"/>
+      <File Name="src/zmq/zmqabstractnotifier.h"/>
+      <File Name="src/zmq/zmqabstractnotifier.cpp"/>
+      <File Name="src/zmq/zmqnotificationinterface.cpp"/>
+      <File Name="src/zmq/zmqconfig.h"/>
+      <File Name="src/zmq/zmqnotificationinterface.h"/>
+      <File Name="src/zmq/zmqpublishnotifier.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="test">
+      <File Name="src/test/util_tests.cpp"/>
+      <File Name="src/test/netbase_tests.cpp"/>
+      <File Name="src/test/bip32_tests.cpp"/>
+      <File Name="src/test/rpc_wallet_tests.cpp"/>
+      <File Name="src/test/rpc_tests.cpp"/>
+      <File Name="src/test/mruset_tests.cpp"/>
+      <File Name="src/test/arith_uint256_tests.cpp"/>
+      <File Name="src/test/base64_tests.cpp"/>
+      <File Name="src/test/base58_tests.cpp"/>
+      <File Name="src/test/getarg_tests.cpp"/>
+      <File Name="src/test/serialize_tests.cpp"/>
+      <File Name="src/test/key_tests.cpp"/>
+      <File Name="src/test/script_tests.cpp"/>
+      <File Name="src/test/sighash_tests.cpp"/>
+      <File Name="src/test/univalue_tests.cpp"/>
+      <File Name="src/test/main_tests.cpp"/>
+      <File Name="src/test/coins_tests.cpp"/>
+      <File Name="src/test/bignum.h"/>
+      <File Name="src/test/sigopcount_tests.cpp"/>
+      <File Name="src/test/Checkpoints_tests.cpp"/>
+      <File Name="src/test/accounting_tests.cpp"/>
+      <File Name="src/test/uint256_tests.cpp"/>
+      <File Name="src/test/miner_tests.cpp"/>
+      <File Name="src/test/test_ivy.cpp"/>
+      <File Name="src/test/scriptnum_tests.cpp"/>
+      <File Name="src/test/DoS_tests.cpp"/>
+      <File Name="src/test/compress_tests.cpp"/>
+      <File Name="src/test/hash_tests.cpp"/>
+      <File Name="src/test/sanity_tests.cpp"/>
+      <File Name="src/test/base32_tests.cpp"/>
+      <File Name="src/test/crypto_tests.cpp"/>
+      <File Name="src/test/allocator_tests.cpp"/>
+      <File Name="src/test/mempool_tests.cpp"/>
+      <File Name="src/test/wallet_tests.cpp"/>
+      <File Name="src/test/bloom_tests.cpp"/>
+      <File Name="src/test/timedata_tests.cpp"/>
+      <File Name="src/test/multisig_tests.cpp"/>
+      <File Name="src/test/transaction_tests.cpp"/>
+      <File Name="src/test/skiplist_tests.cpp"/>
+      <File Name="src/test/pmt_tests.cpp"/>
+      <File Name="src/test/script_P2SH_tests.cpp"/>
+      <File Name="src/test/alert_tests.cpp"/>
+      <File Name="src/test/checkblock_tests.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="Cross GCC ( x86_64-linux-gnu )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

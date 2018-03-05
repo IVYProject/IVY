@@ -1,0 +1,26 @@
+# /etc/conf.d/ivyd: config file for /etc/init.d/ivyd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ivy/ivy.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ivyd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ivyd.pid"
+
+# Where to write ivyd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ivyd"
+
+# User and group to own ivyd process
+#BITCOIND_USER="ivy"
+#BITCOIND_GROUP="ivy"
+
+# Path to ivyd executable
+#BITCOIND_BIN="/usr/bin/ivyd"
+
+# Nice value to run ivyd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
