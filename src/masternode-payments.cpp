@@ -300,7 +300,11 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
 
     CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
     CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue);
-
+    if (!fProofOfStake && pindexPrev->nHeight < Params().LAST_POW_BLOCK()) 
+    { //TODO:Do something to turn fProofOfStake off, by consensus method. Otherwise one could keep mining.
+		txNew.vout[0].nValue = nFees + blockValue;
+		LogPrintf("CreateNewBlock: blockvalue to pay value %u\n", blockValue);
+    }
     if (hasPayment) {
         if (fProofOfStake) {
             /**For Proof Of Stake vout[0] must be null
@@ -327,6 +331,15 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
         CBitcoinAddress address2(address1);
 
         LogPrintf("Masternode payment of %s to %s\n", FormatMoney(masternodePayment).c_str(), address2.ToString().c_str());
+    }
+    else
+    {
+        txNew.vout.resize(2);
+        txNew.vout[1].scriptPubKey = payee;
+        txNew.vout[1].nValue = masternodePayment;
+        LogPrintf("CreateNewBlock: masternode to pay value %u\n", masternodePayment);
+        txNew.vout[0].nValue = blockValue;
+        LogPrintf("CreateNewBlock: blockvalue to pay value %u\n", blockValue);  
     }
 }
 
