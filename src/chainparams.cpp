@@ -52,16 +52,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(259201, uint256("1c9121bf9329a6234bfd1ea2d91515f19cd96990725265253f4b164283ade5dd"))
-    (424998, uint256("f31e381eedb0ed3ed65fcc98cc71f36012bee32e8efd017c4f9fb0620fd35f6b"))
-    (616764, uint256("29dd0bd1c59484f290896687b4ffb6a49afa5c498caf61967c69a541f8191557")) //first block to use modifierV2
-    (623933, uint256("c7aafa648a0f1450157dc93bd4d7448913a85b7448f803b4ab970d91fc2a7da7"));
+    boost::assign::map_list_of(0, uint256("0x00"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1493667067, // * UNIX timestamp of last checkpoint block
-    1157185,    // * total number of transactions between genesis and last checkpoint
+    0, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2000        // * estimated number of transactions per day after checkpoint
+    5        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -131,7 +128,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // IVY: 1 day
         nTargetSpacing = 1 * 60;  // IVY: 1 minute
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 100;
         nMaturity = 0;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
@@ -196,7 +193,7 @@ public:
         strSporkKey = "04eb568895a345ce22c995f470485d0ec54a857803930083de2a7f7ab5f95e32d933e8cbc3d4553393b6eb46f046054d343763136c8b5e8d2f5f61916bc3359517";
         //strSporkKey = "04B433E6598390C992F4F022F20D3B4CBBE691652EE7C48243B81701CBDB7CC7D7BF0EE09E154E6FCBF2043D65AF4E9E97B89B5DBAF830D83B9B7F469A6C45A717";
         strObfuscationPoolDummyAddress = "D87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
-        nStartMasternodePayments = 1603728576; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1520412874; //Wed, 25 Jun 2014 20:36:16 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const

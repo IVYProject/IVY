@@ -334,10 +334,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
     }
     else
     {
-        txNew.vout.resize(2);
-        txNew.vout[1].scriptPubKey = payee;
-        txNew.vout[1].nValue = masternodePayment;
-        LogPrintf("CreateNewBlock: masternode to pay value %u\n", masternodePayment);
+
         txNew.vout[0].nValue = blockValue;
         LogPrintf("CreateNewBlock: blockvalue to pay value %u\n", blockValue);  
     }
