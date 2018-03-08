@@ -155,12 +155,12 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1520254355;
+        genesis.nTime = 1520492511;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 583473;
-        //MineGenesis(genesis);
+        genesis.nNonce = 1603723;
+       
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0000019a6277b41278038feb224d55ca97fbd8e089b8d67aeb54c6d87fff9b43"));
+        assert(hashGenesisBlock == uint256("00000b1c5ffe90986838697640b182f9bc54557f6f808f8d7783dc56370a3576"));
         assert(genesis.hashMerkleRoot == uint256("5068b7387f83198e5c4fa301ece0f45d0b17e60766a227b246eb29435885aded"));
 
      //   vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "ivy.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
@@ -232,18 +232,18 @@ public:
         nMaxMoneyOut = 43199500 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
-
+        genesis.nTime = 1520492815;
+        genesis.nNonce = 1736557;
+	MineGenesis(genesis);
         hashGenesisBlock = genesis.GetHash();
-       // assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        assert(hashGenesisBlock == uint256("0000031bac774bf748b813817b81f7e5e934098ffa12d67a2fecaa96e0c93700"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "ivy-testnet.seed.fuzzbawls.pw"));
+       /* vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "ivy-testnet.seed.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "ivy-testnet.seed2.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
-        vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
+        vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));*/
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet ivy addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet ivy script addresses start with '8' or '9'
@@ -300,13 +300,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Ivy: 1 day
         nTargetSpacing = 1 * 60;        // Ivy: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1520492691;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
-
+        genesis.nNonce = 4068363;
+ 	
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
-       // assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
+        assert(hashGenesisBlock == uint256("0000049c354c71111738a47eb0814f541fcd8865a135f9c23a636f1e31b0f06c"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
