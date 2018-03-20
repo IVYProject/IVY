@@ -27,8 +27,8 @@ uname -v = #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /home/drakelv/bin
-PATH: /home/drakelv/.local/bin
+PATH: /home/ubuntu/bin
+PATH: /home/ubuntu/.local/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin
@@ -1104,11 +1104,11 @@ configure: failed program was:
 configure:20994: result: no
 configure:20892: checking whether pthreads work without any flags
 configure:20985: gcc -o conftest -g -O2    -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  conftest.c   >&5
-/tmp/ccK2jGuX.o: In function `main':
-/home/drakelv/ivy/conftest.c:29: undefined reference to `pthread_create'
-/home/drakelv/ivy/conftest.c:30: undefined reference to `pthread_join'
-/home/drakelv/ivy/conftest.c:32: undefined reference to `__pthread_register_cancel'
-/home/drakelv/ivy/conftest.c:33: undefined reference to `__pthread_unregister_cancel'
+/tmp/cc6GjKUW.o: In function `main':
+/home/ubuntu/ivy/conftest.c:29: undefined reference to `pthread_create'
+/home/ubuntu/ivy/conftest.c:30: undefined reference to `pthread_join'
+/home/ubuntu/ivy/conftest.c:32: undefined reference to `__pthread_register_cancel'
+/home/ubuntu/ivy/conftest.c:33: undefined reference to `__pthread_unregister_cancel'
 collect2: error: ld returned 1 exit status
 configure:20985: $? = 1
 configure: failed program was:
@@ -1575,8 +1575,8 @@ configure:22189: checking for sys/prctl.h
 configure:22189: result: yes
 configure:22199: checking for library containing getaddrinfo_a
 configure:22230: g++ -std=c++11 -o conftest -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2   -Wl,-z,relro -Wl,-z,now conftest.cpp  >&5
-/tmp/ccKzdlRl.o: In function `main':
-/home/drakelv/ivy/conftest.cpp:48: undefined reference to `getaddrinfo_a'
+/tmp/ccHxxTjs.o: In function `main':
+/home/ubuntu/ivy/conftest.cpp:48: undefined reference to `getaddrinfo_a'
 collect2: error: ld returned 1 exit status
 configure:22230: $? = 1
 configure: failed program was:
@@ -3709,7 +3709,7 @@ config.status:1359: creating src/config/ivy-config.h
 config.status:1540: src/config/ivy-config.h is unchanged
 config.status:1588: executing depfiles commands
 config.status:1588: executing libtool commands
-configure:31882: === configuring in src/secp256k1 (/home/drakelv/ivy/src/secp256k1)
+configure:31882: === configuring in src/secp256k1 (/home/ubuntu/ivy/src/secp256k1)
 configure:31945: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  '--disable-shared' '--with-pic' --cache-file=/dev/null --srcdir=.
 configure:31964: result: Fixing libtool for -rpath problems.
 
@@ -3978,7 +3978,7 @@ pkg_cv_SSL_LIBS=-lssl
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/drakelv/ivy/build-aux/missing aclocal-1.15'
+ACLOCAL='${SHELL} /home/ubuntu/ivy/build-aux/missing aclocal-1.15'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -3988,9 +3988,9 @@ AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
 AM_DEFAULT_VERBOSITY='0'
 AM_V='$(V)'
 AR='/usr/bin/ar'
-AUTOCONF='${SHELL} /home/drakelv/ivy/build-aux/missing autoconf'
-AUTOHEADER='${SHELL} /home/drakelv/ivy/build-aux/missing autoheader'
-AUTOMAKE='${SHELL} /home/drakelv/ivy/build-aux/missing automake-1.15'
+AUTOCONF='${SHELL} /home/ubuntu/ivy/build-aux/missing autoconf'
+AUTOHEADER='${SHELL} /home/ubuntu/ivy/build-aux/missing autoheader'
+AUTOMAKE='${SHELL} /home/ubuntu/ivy/build-aux/missing automake-1.15'
 AWK='gawk'
 BDB_CPPFLAGS=''
 BDB_LIBS='-ldb_cxx-4.8'
@@ -4098,7 +4098,7 @@ LUPDATE='/usr/lib/x86_64-linux-gnu/qt5/bin/lupdate'
 MAINT=''
 MAINTAINER_MODE_FALSE='#'
 MAINTAINER_MODE_TRUE=''
-MAKEINFO='${SHELL} /home/drakelv/ivy/build-aux/missing makeinfo'
+MAKEINFO='${SHELL} /home/ubuntu/ivy/build-aux/missing makeinfo'
 MAKENSIS=''
 MANIFEST_TOOL=':'
 MINIUPNPC_CPPFLAGS=''
@@ -4235,7 +4235,7 @@ host_vendor='pc'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/drakelv/ivy/build-aux/install-sh'
+install_sh='${SHELL} /home/ubuntu/ivy/build-aux/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

@@ -10,11 +10,11 @@ SetCompressor /SOLID lzma
 !define URL https://www.ivy.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/drakelv/ivy/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/drakelv/ivy/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/ubuntu/ivy/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/ubuntu/ivy/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/drakelv/ivy/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/ubuntu/ivy/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,7 +22,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Ivy Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\ivy-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/drakelv/ivy/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/ubuntu/ivy/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/drakelv/ivy/ivy-${VERSION}-win-setup.exe
+OutFile /home/ubuntu/ivy/ivy-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\Ivy
 !else
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/drakelv/ivy/release/ivy-qt.exe
-    File /oname=COPYING.txt /home/drakelv/ivy/COPYING
-    File /oname=readme.txt /home/drakelv/ivy/doc/README_windows.txt
+    File /home/ubuntu/ivy/release/ivy-qt.exe
+    File /oname=COPYING.txt /home/ubuntu/ivy/COPYING
+    File /oname=readme.txt /home/ubuntu/ivy/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/drakelv/ivy/release/ivyd.exe
-    File /home/drakelv/ivy/release/ivy-cli.exe
+    File /home/ubuntu/ivy/release/ivyd.exe
+    File /home/ubuntu/ivy/release/ivy-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/drakelv/ivy/doc\*.*
+    File /r /home/ubuntu/ivy/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
